@@ -41,6 +41,7 @@ hr{
 .intro{
   width: 30%;
   margin: auto;
+  text-shadow: 2px 2px 3px #91D8E4, 0 0 1em #82AAE3, 0 0 0.2em #82AAE3;
 }
 
 .skill-row{
@@ -65,8 +66,8 @@ background-color: #E4F9F5;
 }
 
 .pro{
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 .mountain{
@@ -127,7 +128,14 @@ a:hover{
   padding: 20px 0;
 }
 
+
+.touch{
+  text-shadow: 2px 2px 2px black, 0 0 1em #42C2FF, 0 0 0.1em #42C2FF;
+}
+
+
 .btn {
+  text-shadow: 2px 2px 2px black, 0 0 1em white, 0 0 0.1em white;
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
